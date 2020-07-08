@@ -7,6 +7,7 @@ body,html,div{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    background-color:rgb(229, 237, 243);
 }
 
 .left .nav{
@@ -24,6 +25,25 @@ body,html,div{
     margin: 40px 0 40px 0;
     /* overflow: hidden; */
 }
+.top_header{
+   
+    background-image: linear-gradient(to right, rgb(54, 72, 87) ,  rgb(56, 85, 110));
+    /* height: 20px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-group{
+    margin: 0 20px;
+}
+.top_name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(255, 251, 251, 0.836);
+    line-height: 42px;
+}
+
 .footer{
     margin-top: 60px;
 }

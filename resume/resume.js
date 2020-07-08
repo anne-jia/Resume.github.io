@@ -1,12 +1,31 @@
 // 设置高度自适应
-
-
-
 $(document).ready(function(){
     $(".left").height($(window).innerHeight());
     $(".right").height($(window).innerHeight());
-    if($(window).innerWidth()<576){
+    if($(window).innerWidth()<769){
+        $(".left").hide();
+        $('.top_header').show();
+    
+    }else{
+        $('.top_header').hide();
+        $(".left").show()
     }
 })
+
+
+$(window).resize(function(){
+    $(".left").height($(window).innerHeight());
+    $(".right").height($(window).innerHeight());
+    if($(window).innerWidth()<769){
+        $(".left").hide();
+        $('.top_header').show();
+    
+    }else{
+        $('.top_header').hide();
+        $(".left").show()
+    }
+})
+
+
 
 console.log($("#v-pills-about").height(),$("#v-pills-skill").height())
