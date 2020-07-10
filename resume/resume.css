@@ -45,9 +45,31 @@ body,html,div{
 }
 
 .footer{
-    margin-top: 60px;
+    box-sizing: border-box;
+    padding: 25px 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-
+.footer a{
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    /* width: 30px; */
+    padding: 4px;
+    border-radius: 20px;
+    border: 1px solid #888888;
+    transition: width 2s, height 2s, transform 1s;
+}
+.footer a:hover{
+    transform:scale(1.5,1.5) rotateY(5deg);
+    text-decoration: none;
+}
+.footer p{
+    font-size: 10px;
+    padding-top: 10px;
+    color: rgb(36, 88, 62);
+}
 .right{
     height: 100000px;
     margin-bottom: -100000px;
