@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-07-08T01:20:32.874Z</updated>
+  <updated>2020-07-10T03:20:08.902Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,45 +17,28 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>跨域的解决方案</title>
-    <link href="http://yoursite.com/chome/%E8%B7%A8%E5%9F%9F%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
-    <id>http://yoursite.com/chome/%E8%B7%A8%E5%9F%9F%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</id>
-    <published>2020-07-07T16:51:01.000Z</published>
-    <updated>2020-07-08T01:20:32.874Z</updated>
+    <title>Portfolio/级联菜单</title>
+    <link href="http://yoursite.com/uncategorized/Portfolio/%E7%BA%A7%E8%81%94%E8%8F%9C%E5%8D%95/"/>
+    <id>http://yoursite.com/uncategorized/Portfolio/%E7%BA%A7%E8%81%94%E8%8F%9C%E5%8D%95/</id>
+    <published>2020-07-10T03:20:08.902Z</published>
+    <updated>2020-07-10T03:20:08.902Z</updated>
     
-    <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="chome" scheme="http://yoursite.com/categories/chome/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>盒子水平垂直居中的5大方案</title>
-    <link href="http://yoursite.com/css/%E7%9B%92%E5%AD%90%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD%E7%9A%845%E5%A4%A7%E6%96%B9%E6%A1%88/"/>
-    <id>http://yoursite.com/css/%E7%9B%92%E5%AD%90%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD%E7%9A%845%E5%A4%A7%E6%96%B9%E6%A1%88/</id>
-    <published>2020-07-07T16:47:26.000Z</published>
-    <updated>2020-07-08T01:19:32.290Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="定位3种（刚开始实现的时候：）"><a href="#定位3种（刚开始实现的时候：）" class="headerlink" title="定位3种（刚开始实现的时候：）"></a>定位3种（刚开始实现的时候：）</h1><pre><code class="bash">顶顶顶</code></pre><h1 id="display-flex"><a href="#display-flex" class="headerlink" title="display:flex"></a>display:flex</h1><pre><code class="bash">顶顶顶</code></pre><h1 id="javaScript"><a href="#javaScript" class="headerlink" title="javaScript"></a>javaScript</h1><pre><code class="bash">顶顶顶</code></pre><h1 id="dispaly-table-cell"><a href="#dispaly-table-cell" class="headerlink" title="dispaly:table-cell"></a>dispaly:table-cell</h1><pre><code class="bash">顶顶顶</code></pre>]]></content>
+    <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;定位3种（刚开始实现的时候：）&quot;&gt;&lt;a href=&quot;#定位3种（刚开始实现的时候：）&quot; class=&quot;headerlink&quot; title=&quot;定位3种（刚开始实现的时候：）&quot;&gt;&lt;/a&gt;定位3种（刚开始实现的时候：）&lt;/h1&gt;&lt;pre&gt;&lt;code class=&quot;bas
+        &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+        
       
     
     </summary>
     
     
-      <category term="css" scheme="http://yoursite.com/categories/css/"/>
-    
-    
-      <category term="布局" scheme="http://yoursite.com/tags/%E5%B8%83%E5%B1%80/"/>
     
   </entry>
   
@@ -82,13 +65,344 @@
   </entry>
   
   <entry>
-    <title>&#39;经典布局的实现&#39;</title>
+    <title>dav</title>
+    <link href="http://yoursite.com/Protfolio/Portfolio/dav/"/>
+    <id>http://yoursite.com/Protfolio/Portfolio/dav/</id>
+    <published>2020-07-01T13:48:39.000Z</published>
+    <updated>2020-07-10T03:04:17.440Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h3><p>dva是基于redux的框架不是插件<br>是基于redux,redux-saga的数据流方案支持热重载</p><h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>6个api<br>dva 还额外内置了 react-router 和 fetch</p><p>mock（数据模拟）</p><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>命名：安装：npm install dva-cli -g<br>查看版本： dva -v<br>创建应用：dva new 应用名称<br>安装antd:npm install antd babel-plugin-import –save<br>babel-plugin-import (按需加载)<br>webpackrc配置文件：经常用到，配置ajax情求<br>路由：原理：有#号的是锚点定位<br>history:利用H5的history的API<br>学习：知识地图和API<br>UI component</p><p><a href="https://dvajs.com/guide/" target="_blank" rel="noopener">更多就去看官方文档吧！</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;概念&quot;&gt;&lt;a href=&quot;#概念&quot; class=&quot;headerlink&quot; title=&quot;概念&quot;&gt;&lt;/a&gt;概念&lt;/h3&gt;&lt;p&gt;dva是基于redux的框架不是插件&lt;br&gt;是基于redux,redux-saga的数据流方案支持热重载&lt;/p&gt;
+&lt;h2 id=&quot;配置&quot;&gt;&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="Protfolio" scheme="http://yoursite.com/categories/Protfolio/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>什么是纯函数</title>
+    <link href="http://yoursite.com/js/bj/%E4%BB%80%E4%B9%88%E6%98%AF%E7%BA%AF%E5%87%BD%E6%95%B0/"/>
+    <id>http://yoursite.com/js/bj/%E4%BB%80%E4%B9%88%E6%98%AF%E7%BA%AF%E5%87%BD%E6%95%B0/</id>
+    <published>2019-09-08T13:48:39.000Z</published>
+    <updated>2020-07-10T02:23:54.180Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h1><p>对外界没有副作用的函数<br>同样的输入，得到同样的输出</p><p>不是纯函数的例子</p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">var myname =<span class="string">'ll'</span></span><br><span class="line"><span class="keyword">function</span> <span class="function"><span class="title">test</span></span>(){</span><br><span class="line">myname=<span class="string">'xx'</span></span><br><span class="line">}</span><br><span class="line"><span class="built_in">test</span>()</span><br></pre></td></tr></tbody></table></figure><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">var obj ={myname:<span class="string">'ll'</span>}</span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="built_in">test</span>(obj){</span><br><span class="line"> obj.myname=<span class="string">'xx'</span></span><br><span class="line">}</span><br><span class="line"><span class="built_in">test</span>(obj) 相当于同一把钥匙开同一个门</span><br></pre></td></tr></tbody></table></figure><p>纯函数的例子</p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">var myname =<span class="string">'ll'</span></span><br><span class="line"><span class="keyword">function</span> <span class="built_in">test</span>(myname){</span><br><span class="line"> myname=<span class="string">'xx'</span></span><br><span class="line">}</span><br><span class="line">text(myname)</span><br></pre></td></tr></tbody></table></figure><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">var obj ={myname:<span class="string">'ll'</span>}</span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="built_in">test</span>(obj){</span><br><span class="line">var newobj={...obj}</span><br><span class="line"> newobj.myname=<span class="string">'xx'</span></span><br><span class="line"></span><br><span class="line">}</span><br><span class="line"><span class="built_in">test</span>(obj)</span><br></pre></td></tr></tbody></table></figure><h1 id="应用中"><a href="#应用中" class="headerlink" title="应用中"></a>应用中</h1><p>react的高阶组件就是用到了纯函数的概念</p><p>用到的高阶组件 <code>withRoute connect reduct memo</code></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;定义&quot;&gt;&lt;/a&gt;定义&lt;/h1&gt;&lt;p&gt;对外界没有副作用的函数&lt;br&gt;同样的输入，得到同样的输出&lt;/p&gt;
+&lt;p&gt;不是纯函数的例子&lt;/p&gt;
+&lt;figure class=&quot;highli
+      
+    
+    </summary>
+    
+    
+      <category term="js" scheme="http://yoursite.com/categories/js/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>粒子插件</title>
+    <link href="http://yoursite.com/protfolio/Portfolio/%E7%B2%92%E5%AD%90%E6%8F%92%E4%BB%B6/"/>
+    <id>http://yoursite.com/protfolio/Portfolio/%E7%B2%92%E5%AD%90%E6%8F%92%E4%BB%B6/</id>
+    <published>2019-07-07T16:47:26.000Z</published>
+    <updated>2020-07-10T03:09:56.231Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="使用："><a href="#使用：" class="headerlink" title="使用："></a>使用：</h3><p><code>react-particles-js</code><br>基于particles-js写的<br><code>canvas</code>画布已经画出来，改变背景可以显示<br><code>canvas</code>的背景高度更改 不支持百分比<br>可以设置为<code>window.innerHeight+'px'</code></p><p>不知道就去翻看文档咯！</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;使用：&quot;&gt;&lt;a href=&quot;#使用：&quot; class=&quot;headerlink&quot; title=&quot;使用：&quot;&gt;&lt;/a&gt;使用：&lt;/h3&gt;&lt;p&gt;&lt;code&gt;react-particles-js&lt;/code&gt;&lt;br&gt;基于particles-js写的&lt;br&gt;&lt;code&gt;canva
+      
+    
+    </summary>
+    
+    
+      <category term="protfolio" scheme="http://yoursite.com/categories/protfolio/"/>
+    
+    
+      <category term="protflio" scheme="http://yoursite.com/tags/protflio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Webpack的配置</title>
+    <link href="http://yoursite.com/webapck/webpacks/webpack%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+    <id>http://yoursite.com/webapck/webpacks/webpack%E7%9A%84%E4%BD%BF%E7%94%A8/</id>
+    <published>2018-12-08T13:48:39.000Z</published>
+    <updated>2020-07-10T02:59:06.251Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="webpack配置的4大核心配置：入口-出口-loader-插件"><a href="#webpack配置的4大核心配置：入口-出口-loader-插件" class="headerlink" title="webpack配置的4大核心配置：入口  出口  loader  插件"></a>webpack配置的4大核心配置：入口  出口  loader  插件</h2><p>入口文件的更改：diy入口文件不仅仅是<code>index.js</code>文件<br>1、配置<code>webpack.config.js</code>文件<br>    写入的位置在文件的根目录下<br>2、必须有导出：</p><pre><code class="bash">module.exports={}</code></pre><p>3、入口和出口关键字是固定的</p><pre><code class="bash">module.exports={    // 入口    entry:{    },    // 出口    output:{    }}</code></pre><p>4、设置入口和出口</p><pre><code class="bash">module.exports={    // 入口    entry:{        // 绝对路径加相对路径 key值是不固定的        <span class="string">'kk'</span>:__dirname +<span class="string">'/src/main.js'</span>    },    // 出口    output:{        // 打包后的文件存放的地方        path : __dirname +<span class="string">'/dist'</span>,        // 打包后输出文件的文件名        filename:<span class="string">'aaa.js'</span>    }}</code></pre><p>5、多个入口：多个入口的原因可能是多页面应用或者是引入不同的js代码<br><code>dist</code>文件夹下的js文件会根据<code>name</code>的名字来显示，既生成：<code>kk.js kk2.js</code></p><pre><code class="bash">module.exports={    // 入口    entry:{        // 绝对路径加相对路径 key值是不固定的        <span class="string">'kk'</span>:__dirname +<span class="string">'/src/main.js'</span>,        <span class="string">'kk2'</span>:__dirname +<span class="string">'/src/main2.js'</span>    },    // 出口    output:{        // 打包后的文件存放的地方        path : __dirname +<span class="string">'/dist'</span>,        // 打包后输出文件的文件名        filename:<span class="string">'[name].js'</span>    }}</code></pre><h2 id="Webpack-性能优化"><a href="#Webpack-性能优化" class="headerlink" title="Webpack 性能优化"></a>Webpack 性能优化</h2><p>思考中： <code>有哪些方式可以减少 Webpack 的打包时间</code><br><code>有哪些方式可以让 Webpack 打出来的包更小</code></p><h3 id="减少-Webpack-打包时间"><a href="#减少-Webpack-打包时间" class="headerlink" title="减少 Webpack 打包时间"></a>减少 Webpack 打包时间</h3><h4 id="优化-Loader"><a href="#优化-Loader" class="headerlink" title="优化 Loader"></a>优化 Loader</h4><p>对于 Loader 来说，影响打包效率首当其冲必属 Babel 了。因为 Babel 会将代码转为字符串生成 AST，然后对 AST 继续进行转变最后再生成新的代码，项目越大，转换代码越多，效率就越低。当然了，我们是有办法优化的。</p><p>首先我们可以优化 Loader 的文件搜索范围</p><pre><code class="bash">module.exports = {  module: {    rules: [      {        // js 文件才使用 babel        <span class="built_in">test</span>: /\.js$/,        loader: <span class="string">'babel-loader'</span>,        // 只在 src 文件夹下查找        include: [resolve(<span class="string">'src'</span>)],        // 不会去查找的路径        exclude: /node_modules/      }    ]  }}</code></pre><p>对于 Babel 来说，我们肯定是希望只作用在 JS 代码上的，然后 node_modules 中使用的代码都是编译过的，所以我们也完全没有必要再去处理一遍。</p><p>当然这样做还不够，我们还可以将 Babel 编译过的文件缓存起来，下次只需要编译更改过的代码文件即可，这样可以大幅度加快打包时间</p><pre><code class="bash">loader: <span class="string">'babel-loader?cacheDirectory=true'</span></code></pre><h4 id="HappyPack"><a href="#HappyPack" class="headerlink" title="HappyPack"></a>HappyPack</h4><p>受限于 Node 是单线程运行的，所以 Webpack 在打包的过程中也是单线程的，特别是在执行 Loader 的时候，长时间编译的任务很多，这样就会导致等待的情况。</p><p>HappyPack 可以将 Loader 的同步执行转换为并行的，这样就能充分利用系统资源来加快打包效率了</p><pre><code class="bash">module: {  loaders: [    {      <span class="built_in">test</span>: /\.js$/,      include: [resolve(<span class="string">'src'</span>)],      exclude: /node_modules/,      // id 后面的内容对应下面      loader: <span class="string">'happypack/loader?id=happybabel'</span>    }  ]},plugins: [  new HappyPack({    id: <span class="string">'happybabel'</span>,    loaders: [<span class="string">'babel-loader?cacheDirectory'</span>],    // 开启 4 个线程    threads: 4  })]</code></pre><h4 id="DllPlugin"><a href="#DllPlugin" class="headerlink" title="DllPlugin"></a>DllPlugin</h4><p>DllPlugin 可以将特定的类库提前打包然后引入。这种方式可以极大的减少打包类库的次数，只有当类库更新版本才有需要重新打包，并且也实现了将公共代码抽离成单独文件的优化方案。</p><p>接下来我们就来学习如何使用 DllPlugin</p><pre><code class="bash">// 单独配置在一个文件中// webpack.dll.conf.jsconst path = require(<span class="string">'path'</span>)const webpack = require(<span class="string">'webpack'</span>)module.exports = {  entry: {    // 想统一打包的类库    vendor: [<span class="string">'react'</span>]  },  output: {    path: path.join(__dirname, <span class="string">'dist'</span>),    filename: <span class="string">'[name].dll.js'</span>,    library: <span class="string">'[name]-[hash]'</span>  },  plugins: [    new webpack.DllPlugin({      // name 必须和 output.library 一致      name: <span class="string">'[name]-[hash]'</span>,      // 该属性需要与 DllReferencePlugin 中一致      context: __dirname,      path: path.join(__dirname, <span class="string">'dist'</span>, <span class="string">'[name]-manifest.json'</span>)    })  ]}</code></pre><p>然后我们需要执行这个配置文件生成依赖文件，接下来我们需要使用 DllReferencePlugin 将依赖文件引入项目中</p><pre><code class="bash">// webpack.conf.jsmodule.exports = {  // ...省略其他配置  plugins: [    new webpack.DllReferencePlugin({      context: __dirname,      // manifest 就是之前打包出来的 json 文件      manifest: require(<span class="string">'./dist/vendor-manifest.json'</span>),    })  ]}</code></pre><h4 id="代码压缩"><a href="#代码压缩" class="headerlink" title="代码压缩"></a>代码压缩</h4><p>在 Webpack3 中，我们一般使用 UglifyJS 来压缩代码，但是这个是单线程运行的，为了加快效率，我们可以使用 <code>webpack-parallel-uglify-plugin</code> 来并行运行 <code>UglifyJS</code>，从而提高效率。</p><p>在 Webpack4 中，我们就不需要以上这些操作了，只需要将 mode 设置为 production 就可以默认开启以上功能。代码压缩也是我们必做的性能优化方案，当然我们不止可以压缩 JS 代码，还可以压缩 HTML、CSS 代码，并且在压缩 JS 代码的过程中，我们还可以通过配置实现比如删除 console.log 这类代码的功能。</p><p>一些小的优化点<br>我们还可以通过一些小的优化点来加快打包速度</p><p><code>resolve.extensions</code>：用来表明文件后缀列表，默认查找顺序是 <code>['.js', '.json']</code>，如果你的导入文件没有添加后缀就会按照这个顺序查找文件。我们应该尽可能减少后缀列表长度，然后将出现频率高的后缀排在前面<br><code>resolve.alias</code>：可以通过别名的方式来映射一个路径，能让 Webpack 更快找到路径<br><code>module.noParse</code>：如果你确定一个文件下没有其他依赖，就可以使用该属性让 Webpack 不扫描该文件，这种方式对于大型的类库很有帮助</p><h3 id="减少-Webpack-打包后的文件体积"><a href="#减少-Webpack-打包后的文件体积" class="headerlink" title="减少 Webpack 打包后的文件体积"></a>减少 Webpack 打包后的文件体积</h3><h4 id="按需加载"><a href="#按需加载" class="headerlink" title="按需加载"></a>按需加载</h4><p>想必大家在开发 SPA 项目的时候，项目中都会存在十几甚至更多的路由页面。如果我们将这些页面全部打包进一个 JS 文件的话，虽然将多个请求合并了，但是同样也加载了很多并不需要的代码，耗费了更长的时间。那么为了首页能更快地呈现给用户，我们肯定是希望首页能加载的文件体积越小越好，这时候我们就可以使用按需加载，将每个路由页面单独打包为一个文件。当然不仅仅路由可以按需加载，对于 <code>loadash</code> 这种大型类库同样可以使用这个功能。</p><p>按需加载的代码实现这里就不详细展开了，因为鉴于用的框架不同，实现起来都是不一样的。当然了，虽然他们的用法可能不同，但是底层的机制都是一样的。都是当使用的时候再去下载对应文件，返回一个 <code>Promise</code>，当 <code>Promise</code> 成功以后去执行回调。</p><h4 id="Scope-Hoisting"><a href="#Scope-Hoisting" class="headerlink" title="Scope Hoisting"></a>Scope Hoisting</h4><p>Scope Hoisting 会分析出模块之间的依赖关系，尽可能的把打包出来的模块合并到一个函数中去。</p><p>比如我们希望打包两个文件</p><pre><code class="bash">// test.js<span class="built_in">export</span> const a = 1// index.jsimport { a } from <span class="string">'./test.js'</span></code></pre><p>对于这种情况，我们打包出来的代码会类似这样</p><pre><code class="bash">[  /* 0 */  <span class="keyword">function</span> (module, exports, require) {    //...  },  /* 1 */  <span class="keyword">function</span> (module, exports, require) {    //...  }]</code></pre><p>但是如果我们使用 Scope Hoisting 的话，代码就会尽可能的合并到一个函数中去，也就变成了这样的类似代码</p><pre><code class="bash">[  /* 0 */  <span class="keyword">function</span> (module, exports, require) {    //...  }]</code></pre><p>这样的打包方式生成的代码明显比之前的少多了。如果在 Webpack4 中你希望开启这个功能，只需要启用 optimization.concatenateModules 就可以了。</p><pre><code class="bash">module.exports = {  optimization: {    concatenateModules: <span class="literal">true</span>  }}</code></pre><h4 id="Tree-Shaking"><a href="#Tree-Shaking" class="headerlink" title="Tree Shaking"></a>Tree Shaking</h4><p>Tree Shaking 可以实现删除项目中未被引用的代码，比如</p><pre><code class="bash">// test.js<span class="built_in">export</span> const a = 1<span class="built_in">export</span> const b = 2// index.jsimport { a } from <span class="string">'./test.js'</span></code></pre><p>对于以上情况，test 文件中的变量 b 如果没有在项目中使用到的话，就不会被打包到文件中。<br>如果你使用 Webpack 4 的话，开启生产环境就会自动启动这个优化功能。</p><pre><code class="bash"></code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;webpack配置的4大核心配置：入口-出口-loader-插件&quot;&gt;&lt;a href=&quot;#webpack配置的4大核心配置：入口-出口-loader-插件&quot; class=&quot;headerlink&quot; title=&quot;webpack配置的4大核心配置：入口  出口  loa
+      
+    
+    </summary>
+    
+    
+      <category term="webapck" scheme="http://yoursite.com/categories/webapck/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>模拟数据 mock服务器</title>
+    <link href="http://yoursite.com/mock/mock/%E6%A8%A1%E6%8B%9F%E6%95%B0%E6%8D%AE%20mock%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    <id>http://yoursite.com/mock/mock/%E6%A8%A1%E6%8B%9F%E6%95%B0%E6%8D%AE%20mock%E6%9C%8D%E5%8A%A1%E5%99%A8/</id>
+    <published>2018-12-08T13:48:39.000Z</published>
+    <updated>2020-07-10T02:58:55.359Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="json-server"><a href="#json-server" class="headerlink" title="json-server"></a>json-server</h2><p>全局安装json-server</p><p>启动命令：json-server –watch ./test.json  –port  8000 </p><p>创建好假的json 文件</p><p>在json中定义几个key值就是多少个接口</p><p>json文件可以通过id访问每个接口的一部分</p><p>请求数据</p><h2 id="特点："><a href="#特点：" class="headerlink" title="特点："></a>特点：</h2><p>有没有跨域限制<br>谁请求就允许谁进行请求</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;json-server&quot;&gt;&lt;a href=&quot;#json-server&quot; class=&quot;headerlink&quot; title=&quot;json-server&quot;&gt;&lt;/a&gt;json-server&lt;/h2&gt;&lt;p&gt;全局安装json-server&lt;/p&gt;
+&lt;p&gt;启动命令：json-s
+      
+    
+    </summary>
+    
+    
+      <category term="mock" scheme="http://yoursite.com/categories/mock/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>富文本</title>
+    <link href="http://yoursite.com/Protfolio/Portfolio/%E5%AF%8C%E6%96%87%E6%9C%AC/"/>
+    <id>http://yoursite.com/Protfolio/Portfolio/%E5%AF%8C%E6%96%87%E6%9C%AC/</id>
+    <published>2018-12-08T13:48:39.000Z</published>
+    <updated>2020-07-10T02:56:41.412Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="draft-js-原生"><a href="#draft-js-原生" class="headerlink" title="draft-js 原生"></a>draft-js 原生</h3><p>说明：react-draft-wysiwyg 基于react<br>1、安装插件：react-draft-wysiwyg draft-js draftjs-to-html</p><p>2、引入：Editor  from ‘react-draft-wyswyg’</p><p>3、darftjs-to-html  将富文本转换成html存入到数据库</p><p>4、读取的时候html-to-draftjs 将html转换成富文本</p><pre><code class="bash">editorState:<span class="string">""</span>, //同步编辑器状态       contentState:<span class="string">""</span>//同步内容</code></pre><pre><code class="bash">onEditorStateChange={this.onEditorStateChange}//状态改变的时候就会改变值</code></pre><pre><code class="bash">onContentStateChange={this.onContentStateChange} //编辑框的内容</code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;draft-js-原生&quot;&gt;&lt;a href=&quot;#draft-js-原生&quot; class=&quot;headerlink&quot; title=&quot;draft-js 原生&quot;&gt;&lt;/a&gt;draft-js 原生&lt;/h3&gt;&lt;p&gt;说明：react-draft-wysiwyg 基于react&lt;br&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="Protfolio" scheme="http://yoursite.com/categories/Protfolio/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>思路</title>
+    <link href="http://yoursite.com/Protfolio/Portfolio/%E6%80%9D%E8%B7%AF/"/>
+    <id>http://yoursite.com/Protfolio/Portfolio/%E6%80%9D%E8%B7%AF/</id>
+    <published>2018-12-08T13:48:39.000Z</published>
+    <updated>2020-07-10T03:00:03.412Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><pre><code>路由设置引入组件库组件拆分成小的组件那段复用就引入那个实现具体功能引入数据库内容 mock</code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;思路&quot;&gt;&lt;a href=&quot;#思路&quot; class=&quot;headerlink&quot; title=&quot;思路&quot;&gt;&lt;/a&gt;思路&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;路由设置
+引入组件库
+组件拆分成小的组件
+那段复用就引入那个
+实现具体功能
+引入数据库内容 mock&lt;/code&gt;&lt;/pre
+      
+    
+    </summary>
+    
+    
+      <category term="Protfolio" scheme="http://yoursite.com/categories/Protfolio/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>路由跳转不好使</title>
+    <link href="http://yoursite.com/protfolio/Portfolio/%E8%B7%AF%E7%94%B1%E8%B7%B3%E8%BD%AC%E4%B8%8D%E5%A5%BD%E4%BD%BF/"/>
+    <id>http://yoursite.com/protfolio/Portfolio/%E8%B7%AF%E7%94%B1%E8%B7%B3%E8%BD%AC%E4%B8%8D%E5%A5%BD%E4%BD%BF/</id>
+    <published>2018-12-07T16:47:26.000Z</published>
+    <updated>2020-07-10T03:15:41.850Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="原因：该组件没有背Route包裹"><a href="#原因：该组件没有背Route包裹" class="headerlink" title="原因：该组件没有背Route包裹"></a>原因：该组件没有背Route包裹</h3><p>Route渲染的时候使用的render 不是component<br><code>&lt;Route path='' render ={(props)=&gt;&lt;List {...props}&gt;&lt;/List&gt;}&gt;&lt;/Route&gt;</code> 需要传参</p><h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><h4 id="方法1"><a href="#方法1" class="headerlink" title="方法1"></a>方法1</h4><p>将父元素的属性传给子元素</p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;SideMenu kkhistory={this.props.history}&gt;&lt;/SideMenu&gt;</span><br></pre></td></tr></tbody></table></figure><pre><code>调用父传的属性</code></pre><pre><code class="bash">this.props.kkhistory.push(obj.key)</code></pre><h4 id="方法2"><a href="#方法2" class="headerlink" title="方法2"></a>方法2</h4><pre><code>withRouter 高阶组件 获取低阶组件，生成高阶组件    组件导出的时候用withRouter包裹</code></pre><pre><code class="bash"><span class="built_in">export</span> default withRouter(SideMune)使用this.props.history.push(<span class="string">''</span>) </code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;原因：该组件没有背Route包裹&quot;&gt;&lt;a href=&quot;#原因：该组件没有背Route包裹&quot; class=&quot;headerlink&quot; title=&quot;原因：该组件没有背Route包裹&quot;&gt;&lt;/a&gt;原因：该组件没有背Route包裹&lt;/h3&gt;&lt;p&gt;Route渲染的时候使用的r
+      
+    
+    </summary>
+    
+    
+      <category term="protfolio" scheme="http://yoursite.com/categories/protfolio/"/>
+    
+    
+      <category term="protflio" scheme="http://yoursite.com/tags/protflio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>权限如何划分</title>
+    <link href="http://yoursite.com/protfolio/Portfolio/%E6%9D%83%E9%99%90%E5%A6%82%E4%BD%95%E5%88%92%E5%88%86/"/>
+    <id>http://yoursite.com/protfolio/Portfolio/%E6%9D%83%E9%99%90%E5%A6%82%E4%BD%95%E5%88%92%E5%88%86/</id>
+    <published>2018-11-07T16:47:26.000Z</published>
+    <updated>2020-07-10T03:18:28.053Z</updated>
+    
+    <content type="html"><![CDATA[<p>设置好每个功能项权限的级别<br>对请求的用户数据存储到loaclStorage<br>根据用户的权限来决定模块是否该渲染<br>设置好路由的权限</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;设置好每个功能项权限的级别&lt;br&gt;对请求的用户数据存储到loaclStorage&lt;br&gt;根据用户的权限来决定模块是否该渲染&lt;br&gt;设置好路由的权限&lt;/p&gt;
+&lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+      
+    
+    </summary>
+    
+    
+      <category term="protfolio" scheme="http://yoursite.com/categories/protfolio/"/>
+    
+    
+      <category term="protflio" scheme="http://yoursite.com/tags/protflio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>怎么判断对象和数组</title>
+    <link href="http://yoursite.com/js/bj/%E6%80%8E%E4%B9%88%E5%88%A4%E6%96%AD%E5%AF%B9%E8%B1%A1%E5%92%8C%E6%95%B0%E7%BB%84/"/>
+    <id>http://yoursite.com/js/bj/%E6%80%8E%E4%B9%88%E5%88%A4%E6%96%AD%E5%AF%B9%E8%B1%A1%E5%92%8C%E6%95%B0%E7%BB%84/</id>
+    <published>2018-09-08T13:48:39.000Z</published>
+    <updated>2020-07-10T02:17:29.436Z</updated>
+    
+    <content type="html"><![CDATA[<p>1、<br>instanceof判断对象的原型链是否是指向构造函数的prototype</p><p>2、对象的constructor属性 </p><p>3、<br>Object.prototype.toString.call(arr)<br>利用对象的toString可以准确判断是什么类型，call()改变this指向，这里是借用Object的方法，然后有人可能会问为什么不直接用arr.toString而要借用Object的方法，</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1、&lt;br&gt;instanceof判断对象的原型链是否是指向构造函数的prototype&lt;/p&gt;
+&lt;p&gt;2、对象的constructor属性 &lt;/p&gt;
+&lt;p&gt;3、&lt;br&gt;Object.prototype.toString.call(arr)&lt;br&gt;利用对象的toString可
+      
+    
+    </summary>
+    
+    
+      <category term="js" scheme="http://yoursite.com/categories/js/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ajax/fetch/axios的区别</title>
+    <link href="http://yoursite.com/js/bj/fetchAxiosAjax%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
+    <id>http://yoursite.com/js/bj/fetchAxiosAjax%E7%9A%84%E5%8C%BA%E5%88%AB/</id>
+    <published>2018-09-07T13:48:39.000Z</published>
+    <updated>2020-07-10T02:12:37.281Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="ajax-fetch-axios的区别"><a href="#ajax-fetch-axios的区别" class="headerlink" title="ajax/fetch/axios的区别"></a>ajax/fetch/axios的区别</h1><h2 id="ajax"><a href="#ajax" class="headerlink" title="ajax"></a>ajax</h2><p>ajax多个请求之间如果有先后关系的话，就会出现回调地狱<br>1.本身是针对MVC的编程,不符合现在前端MVVM的浪潮<br>2.基于原生的XHR开发，XHR本身的架构不清晰。</p><h2 id="fetch"><a href="#fetch" class="headerlink" title="fetch"></a>fetch</h2><p>1）<code>fetch</code>只对网络请求报错，对400，500都当做成功的请求，服务器返回 400，500 错误码时并不会 reject，只有网络错误这些导致请求不能完成时，<code>fetch</code> 才会被<code>reject</code>。<br>2）<code>fetch</code>默认不会带<code>cookie</code>，需要添加配置项： <code>fetch(url, {credentials: 'include'})</code><br>3）fetch不支持<code>abort</code>，不支持超时控制，使用<code>setTimeout</code>及<code>Promise.reject</code>的实现的超时控制并不能阻止请求过程继续在后台运行，造成了流量的浪费<br>4）fetch没有办法原生监测请求的进度，而<code>XHR</code>可以</p><p>优点：fetch的优点：<br>1.符合关注分离，没有将输入、输出和用事件来跟踪的状态混杂在一个对象里<br>2.更好更方便的写法</p><h2 id="axios"><a href="#axios" class="headerlink" title="axios"></a>axios</h2><p><code>Axsio</code>:从浏览器中创建 <code>XMLHttpRequest</code><br>2.支持 <code>Promise API</code><br>3.客户端支持防止<code>CSRF</code><br>4.提供了一些并发请求的接口（重要，方便了很多的操作）<br>5.从 <code>node.js</code> 创建<code>http</code> 请求<br>6.拦截请求和响应<br>7.转换请求和响应数据<br>8.取消请求<br>9.自动转换JSON数据</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;ajax-fetch-axios的区别&quot;&gt;&lt;a href=&quot;#ajax-fetch-axios的区别&quot; class=&quot;headerlink&quot; title=&quot;ajax/fetch/axios的区别&quot;&gt;&lt;/a&gt;ajax/fetch/axios的区别&lt;/h1&gt;&lt;h2 i
+      
+    
+    </summary>
+    
+    
+      <category term="js" scheme="http://yoursite.com/categories/js/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>EventLoop</title>
+    <link href="http://yoursite.com/js/bj/EventLoop/"/>
+    <id>http://yoursite.com/js/bj/EventLoop/</id>
+    <published>2018-09-07T13:48:39.000Z</published>
+    <updated>2020-07-10T02:15:29.066Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h3><p>由于js是单线程,只有当上一个任务完成之后才会继续完成下一个任务,如果前一个任务耗时很长，后一个任务就不得不一直等着。<br>于是，所有任务可以分成两种，一种是同步任务（synchronous），另一种是异步任务（asynchronous）</p><h3 id="同步任务"><a href="#同步任务" class="headerlink" title="同步任务"></a>同步任务</h3><p>由于js是单线程,只有当上一个任务完成之后才会继续完成下一个任务,如果前一个任务耗时很长，后一个任务就不得不一直等着。<br>于是，所有任务可以分成两种，一种是同步任务（synchronous），另一种是异步任务（asynchronous）</p><h3 id="异步任务"><a href="#异步任务" class="headerlink" title="异步任务"></a>异步任务</h3><p>不进入主线程、而进入”任务队列”（task queue）的任务，只有”任务队列”通知主线程，某个异步任务可以执行了，该任务才会进入主线程执行。<br>主线程从任务队列中读取事件,这个过程是不断循环的,所以整个的运行机制称为event loop</p><h3 id="宏任务"><a href="#宏任务" class="headerlink" title="宏任务"></a>宏任务</h3><p>每次执行栈执行的代码就是一个宏任务（包括每次从事件队列中获取一个事件回调并放到执行栈中执行,每一个宏任务会从头到尾将这个任务执行完毕，不会执行其它）包括整体代码script，setTimeout，setInterval</p><h3 id="微任务"><a href="#微任务" class="headerlink" title="微任务"></a>微任务</h3><p>可以理解是在当前 task 执行结束后立即执行的任务 包括Promise，process.nextTick</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;原因&quot;&gt;&lt;a href=&quot;#原因&quot; class=&quot;headerlink&quot; title=&quot;原因&quot;&gt;&lt;/a&gt;原因&lt;/h3&gt;&lt;p&gt;由于js是单线程,只有当上一个任务完成之后才会继续完成下一个任务,如果前一个任务耗时很长，后一个任务就不得不一直等着。&lt;br&gt;于是，所有任务
+      
+    
+    </summary>
+    
+    
+      <category term="js" scheme="http://yoursite.com/categories/js/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>跨域的解决方案</title>
+    <link href="http://yoursite.com/chome/%E8%B7%A8%E5%9F%9F%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
+    <id>http://yoursite.com/chome/%E8%B7%A8%E5%9F%9F%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</id>
+    <published>2018-07-09T16:51:01.000Z</published>
+    <updated>2020-07-10T03:06:19.459Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="什么是跨域？为什么浏览器要使用同源策略？"><a href="#什么是跨域？为什么浏览器要使用同源策略？" class="headerlink" title="什么是跨域？为什么浏览器要使用同源策略？"></a>什么是跨域？为什么浏览器要使用同源策略？</h1><p>因为浏览器出于安全考虑，有同源策略。也就是说，如果协议、域名或者端口有一个不同就是跨域，Ajax 请求会失败</p><p><strong>那么是出于什么安全考虑才会引入这种机制呢</strong> 其实主要是用来防止 CSRF 攻击的。简单点说，CSRF 攻击是利用用户的登录态发起恶意请求。</p><p>也就是说，没有同源策略的情况下，A 网站可以被任意其他来源的 Ajax 访问到内容。如果你当前 A 网站还存在登录态，那么对方就可以通过 Ajax 获得你的任何信息。当然跨域并不能完全阻止 CSRF。</p><p><strong>然后我们来考虑一个问题，请求跨域了，那么请求到底发出去没有？</strong> 请求必然是发出去了，但是浏览器拦截了响应。你可能会疑问明明通过表单的方式可以发起跨域请求，为什么 Ajax 就不会。因为归根结底，跨域是为了阻止用户读取到另一个域名下的内容，Ajax 可以获取响应，浏览器认为这不安全，所以拦截了响应。但是表单并不会获取新的内容，所以可以发起跨域请求。同时也说明了跨域并不能完全阻止 CSRF，因为请求毕竟是发出去了。</p><p>接下来我们将来学习几种常见的方式来解决跨域的问题。</p><h3 id="JSONP"><a href="#JSONP" class="headerlink" title="JSONP"></a>JSONP</h3><p>JSONP 的原理很简单，就是利用<br> <code>&lt;script&gt;</code> 标签没有跨域限制的漏洞。通过 <code>&lt;script&gt;</code> 标签指向一个需要访问的地址并提供一个回调函数来接收数据当需要通讯时。</p><pre><code class="bash">&lt;script src=<span class="string">"http://domain/api?param1=a&amp;param2=b&amp;callback=jsonp"</span>&gt;&lt;/script&gt;&lt;script&gt;    <span class="keyword">function</span> jsonp(data) {        console.log(data)    }&lt;/script&gt;    </code></pre><p>JSONP 使用简单且兼容性不错，但是只限于 <code>get</code> 请求。</p><p>在开发中可能会遇到多个 <code>JSONP</code> 请求的回调函数名是相同的，这时候就需要自己封装一个 <code>JSONP</code>，以下是简单实现</p><pre><code class="bash"><span class="keyword">function</span> jsonp(url, jsonpCallback, success) {  <span class="built_in">let</span> script = document.createElement(<span class="string">'script'</span>)  script.src = url  script.async = <span class="literal">true</span>  script.type = <span class="string">'text/javascript'</span>  window[jsonpCallback] = <span class="keyword">function</span>(data) {    success &amp;&amp; success(data)  }  document.body.appendChild(script)}jsonp(<span class="string">'http://xxx'</span>, <span class="string">'callback'</span>, <span class="keyword">function</span>(value) {  console.log(value)})</code></pre><h3 id="CORS"><a href="#CORS" class="headerlink" title="CORS"></a>CORS</h3><p>CORS 需要浏览器和后端同时支持。IE 8 和 9 需要通过 <code>XDomainRequest</code> 来实现。</p><p>浏览器会自动进行 CORS 通信，实现 CORS 通信的关键是后端。只要后端实现了 CORS，就实现了跨域。</p><p>服务端设置 <code>Access-Control-Allow-Origin</code> 就可以开启 CORS。 该属性表示哪些域名可以访问资源，如果设置通配符则表示所有网站都可以访问资源。</p><p>虽然设置 CORS 和前端没什么关系，但是通过这种方式解决跨域问题的话，会在发送请求时出现两种情况，分别为简单请求和复杂请求。</p><h3 id="简单请求"><a href="#简单请求" class="headerlink" title="简单请求"></a>简单请求</h3><p>以 Ajax 为例，当满足以下条件时，会触发简单请求</p><p>1、使用下列方法之一：<br><font color="red"></font></p><font color="red"><ul><li><p>GET</p></li><li><p>HEAD</p></li><li><p>POST</p></li></ul></font><p>2、Content-Type 的值仅限于下列三者之一：<br><font color="red"></font></p><font color="red"><ul><li><p>text/plain</p></li><li><p>multipart/form-data</p></li><li><p>application/x-www-form-urlencoded</p></li></ul></font><p>请求中的任意 <code>XMLHttpRequestUpload</code> 对象均没有注册任何事件监听器；<code>XMLHttpRequestUpload</code> 对象可以使用 <code>XMLHttpRequest.upload</code> 属性访问。</p><p>复杂请求<br>那么很显然，不符合以上条件的请求就肯定是复杂请求了。</p><p>对于复杂请求来说，首先会发起一个预检请求，该请求是 option 方法的，通过该请求来知道服务端是否允许跨域请求。</p><p>对于预检请求来说，如果你使用过 Node 来设置 CORS 的话，可能会遇到过这么一个坑。</p><p>以下以 express 框架举例：</p><pre><code class="bash">app.use((req, res, next) =&gt; {  res.header(<span class="string">'Access-Control-Allow-Origin'</span>, <span class="string">'*'</span>)  res.header(<span class="string">'Access-Control-Allow-Methods'</span>, <span class="string">'PUT, GET, POST, DELETE, OPTIONS'</span>)  res.header(    <span class="string">'Access-Control-Allow-Headers'</span>,    <span class="string">'Origin, X-Requested-With, Content-Type, Accept, Authorization, Access-Control-Allow-Credentials'</span>  )  next()})</code></pre><p>该请求会验证你的 <code>Authorization</code> 字段，没有的话就会报错。</p><p>当前端发起了复杂请求后，你会发现就算你代码是正确的，返回结果也永远是报错的。因为预检请求也会进入回调中，也会触发 <code>next</code> 方法，因为预检请求并不包含 <code>Authorization</code> 字段，所以服务端会报错。</p><p>想解决这个问题很简单，只需要在回调中过滤<code>option</code> 方法即可</p><pre><code class="bash">res.statusCode = 204res.setHeader(<span class="string">'Content-Length'</span>, <span class="string">'0'</span>)res.end()</code></pre><h3 id="document-domain"><a href="#document-domain" class="headerlink" title="document.domain"></a>document.domain</h3><p>该方式只能用于二级域名相同的情况下，比如 <code>a.test.com</code> 和<code>b.test.com</code> 适用于该方式。</p><p>只需要给页面添加 <code>document.domain = 'test.com'</code>表示二级域名都相同就可以实现跨域</p><h3 id="postMessage"><a href="#postMessage" class="headerlink" title="postMessage"></a>postMessage</h3><p>这种方式通常用于获取嵌入页面中的第三方页面数据。一个页面发送消息，另一个页面判断来源并接收消息</p><pre><code class="bash">// 发送消息端window.parent.postMessage(<span class="string">'message'</span>, <span class="string">'http://test.com'</span>)// 接收消息端var mc = new MessageChannel()mc.addEventListener(<span class="string">'message'</span>, event =&gt; {  var origin = event.origin || event.originalEvent.origin  <span class="keyword">if</span> (origin === <span class="string">'http://test.com'</span>) {    console.log(<span class="string">'验证通过'</span>)  }})</code></pre><pre><code class="bash"></code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;什么是跨域？为什么浏览器要使用同源策略？&quot;&gt;&lt;a href=&quot;#什么是跨域？为什么浏览器要使用同源策略？&quot; class=&quot;headerlink&quot; title=&quot;什么是跨域？为什么浏览器要使用同源策略？&quot;&gt;&lt;/a&gt;什么是跨域？为什么浏览器要使用同源策略？&lt;/h1&gt;&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="chome" scheme="http://yoursite.com/categories/chome/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>经典布局的实现</title>
     <link href="http://yoursite.com/css/%E7%BB%8F%E5%85%B8%E5%B8%83%E5%B1%80%E7%9A%84%E5%AE%9E%E7%8E%B0/"/>
     <id>http://yoursite.com/css/%E7%BB%8F%E5%85%B8%E5%B8%83%E5%B1%80%E7%9A%84%E5%AE%9E%E7%8E%B0/</id>
     <published>2018-07-09T02:55:31.000Z</published>
-    <updated>2020-07-08T01:20:00.673Z</updated>
+    <updated>2020-07-10T03:05:26.364Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="左定右定中自适应"><a href="#左定右定中自适应" class="headerlink" title="左定右定中自适应"></a>左定右定中自适应</h1><p><font color="red">圣杯布局</font></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line">html部分：</span><br><span class="line">html&#123;</span><br><span class="line">    &lt;div class=<span class="string">'container clearfix'</span>&gt;</span><br><span class="line">        &lt;div class=<span class="string">'center'</span>&gt;&lt;/div&gt;</span><br><span class="line">        &lt;div class=<span class="string">'left'</span>&gt;&lt;/div&gt;</span><br><span class="line">        &lt;div class=<span class="string">'right'</span>&gt;&lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line"></span><br><span class="line">css部分:</span><br><span class="line"> body&#123;</span><br><span class="line">     100% overflow:hidden</span><br><span class="line"> &#125;</span><br><span class="line">.container&#123;</span><br><span class="line">        height:100%;</span><br><span class="line">        padding:0 200px </span><br><span class="line">        &lt;!--(200px等于左右2边的宽度)  --&gt;</span><br><span class="line">    &#125;</span><br><span class="line">.center&#123;</span><br><span class="line">            width:100%;</span><br><span class="line">            min-height:200px</span><br><span class="line">        &#125;</span><br><span class="line">.left,.right&#123;</span><br><span class="line">        width：200px;</span><br><span class="line">        height:200px</span><br><span class="line">    &#125;</span><br><span class="line">.left,.right,.center&#123;</span><br><span class="line">         <span class="built_in">float</span>:left</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">.left&#123;</span><br><span class="line">    margin-left:-100%;</span><br><span class="line">    &lt;!-- (相对之前的位置定位) --&gt;</span><br><span class="line">    position:reative;</span><br><span class="line">    left:-200px;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><font color="red">双飞翼布局</font></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line">html部分：</span><br><span class="line">html &#123;</span><br><span class="line">    &lt;div class=<span class="string">'container'</span>&gt;</span><br><span class="line">        &lt;div class=<span class="string">'center'</span>&gt;&lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;div class=<span class="string">'left'</span>&gt;&lt;/div&gt;</span><br><span class="line">    &lt;div class=<span class="string">'right'</span>&gt;&lt;/div&gt;</span><br><span class="line">css部分：</span><br><span class="line"> body&#123;</span><br><span class="line">     100% overflow:hidden</span><br><span class="line"> &#125;</span><br><span class="line">.container, .left .right&#123;</span><br><span class="line">    <span class="built_in">float</span>:left;</span><br><span class="line">&#125;</span><br><span class="line">.container&#123;</span><br><span class="line">    width:100%;</span><br><span class="line">    padding:0 200px</span><br><span class="line">&#125;</span><br><span class="line">.container .center&#123;</span><br><span class="line">    margin:0 200px;</span><br><span class="line">    min-height:400px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.left .right&#123;</span><br><span class="line">    width:200px</span><br><span class="line">    height:200px</span><br><span class="line">&#125;</span><br><span class="line">.left&#123;</span><br><span class="line">    margin-left:-100%</span><br><span class="line">&#125;</span><br><span class="line">.right&#123;</span><br><span class="line">    margin-left:-200px</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><font color="red">CALC</font></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">.center&#123;</span><br><span class="line">width:calc(100%-400px)</span><br><span class="line">(计算的)</span><br><span class="line">min-height:400px</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><font color="red">flex</font></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">html&#123;</span><br><span class="line">    &lt;div class=<span class="string">'container'</span>&gt;</span><br><span class="line">        &lt;div class=<span class="string">'center'</span>&gt;&lt;/div&gt;</span><br><span class="line">        &lt;div class=<span class="string">'left'</span>&gt;&lt;/div&gt;</span><br><span class="line">        &lt;div class=<span class="string">'right'</span>&gt;&lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">css</span><br><span class="line">.container&#123;</span><br><span class="line">    display:flex</span><br><span class="line">    justify-content:space-between</span><br><span class="line">    height:100%</span><br><span class="line">&#125;</span><br><span class="line">.left, .right&#123;</span><br><span class="line">    flex:0 0 200px</span><br><span class="line">    height:200px</span><br><span class="line">&#125;</span><br><span class="line">.center&#123;</span><br><span class="line">    flex:1</span><br><span class="line">    min-height:400px</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><font color="red">定位实现</font></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">定位实现</span><br><span class="line"> &lt;div class=<span class="string">'container'</span>&gt;</span><br><span class="line">        &lt;div class=<span class="string">'center'</span>&gt;&lt;/div&gt;</span><br><span class="line">        &lt;div class=<span class="string">'left'</span>&gt;&lt;/div&gt;</span><br><span class="line">        &lt;div class=<span class="string">'right'</span>&gt;&lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line"></span><br><span class="line">css</span><br><span class="line">.container&#123;</span><br><span class="line">    height:100% </span><br><span class="line">&#125;</span><br><span class="line">.left, .right&#123;</span><br><span class="line">    posiotion:absolute;</span><br><span class="line">    top:0;</span><br><span class="line">    width:200px;</span><br><span class="line">    height:100px</span><br><span class="line">&#125;</span><br><span class="line">.left&#123;</span><br><span class="line">    left:0</span><br><span class="line">&#125;</span><br><span class="line">.right&#123;</span><br><span class="line">    right:0</span><br><span class="line">&#125;</span><br><span class="line">.center&#123;</span><br><span class="line">    margin:0 200px;</span><br><span class="line">    height:400px</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>后续如还有将继续补充</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="左定右定中自适应"><a href="#左定右定中自适应" class="headerlink" title="左定右定中自适应"></a>左定右定中自适应</h1><p><font color="red">圣杯布局</font></p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line">html部分：</span><br><span class="line">html{</span><br><span class="line">    &lt;div class=<span class="string">'container clearfix'</span>&gt;</span><br><span class="line">        &lt;div class=<span class="string">'center'</span>&gt;&lt;/div&gt;</span><br><span class="line">        &lt;div class=<span class="string">'left'</span>&gt;&lt;/div&gt;</span><br><span class="line">        &lt;div class=<span class="string">'right'</span>&gt;&lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line"></span><br><span class="line">css部分:</span><br><span class="line"> body{</span><br><span class="line">     100% overflow:hidden</span><br><span class="line"> }</span><br><span class="line">.container{</span><br><span class="line">        height:100%;</span><br><span class="line">        padding:0 200px </span><br><span class="line">        &lt;!--(200px等于左右2边的宽度)  --&gt;</span><br><span class="line">    }</span><br><span class="line">.center{</span><br><span class="line">            width:100%;</span><br><span class="line">            min-height:200px</span><br><span class="line">        }</span><br><span class="line">.left,.right{</span><br><span class="line">        width：200px;</span><br><span class="line">        height:200px</span><br><span class="line">    }</span><br><span class="line">.left,.right,.center{</span><br><span class="line">         <span class="built_in">float</span>:left</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">.left{</span><br><span class="line">    margin-left:-100%;</span><br><span class="line">    &lt;!-- (相对之前的位置定位) --&gt;</span><br><span class="line">    position:reative;</span><br><span class="line">    left:-200px;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure><p><font color="red">双飞翼布局</font></p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line">html部分：</span><br><span class="line">html {</span><br><span class="line">    &lt;div class=<span class="string">'container'</span>&gt;</span><br><span class="line">        &lt;div class=<span class="string">'center'</span>&gt;&lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;div class=<span class="string">'left'</span>&gt;&lt;/div&gt;</span><br><span class="line">    &lt;div class=<span class="string">'right'</span>&gt;&lt;/div&gt;</span><br><span class="line">css部分：</span><br><span class="line"> body{</span><br><span class="line">     100% overflow:hidden</span><br><span class="line"> }</span><br><span class="line">.container, .left .right{</span><br><span class="line">    <span class="built_in">float</span>:left;</span><br><span class="line">}</span><br><span class="line">.container{</span><br><span class="line">    width:100%;</span><br><span class="line">    padding:0 200px</span><br><span class="line">}</span><br><span class="line">.container .center{</span><br><span class="line">    margin:0 200px;</span><br><span class="line">    min-height:400px;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">.left .right{</span><br><span class="line">    width:200px</span><br><span class="line">    height:200px</span><br><span class="line">}</span><br><span class="line">.left{</span><br><span class="line">    margin-left:-100%</span><br><span class="line">}</span><br><span class="line">.right{</span><br><span class="line">    margin-left:-200px</span><br><span class="line">}</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure><p><font color="red">CALC</font></p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">.center{</span><br><span class="line">width:calc(100%-400px)</span><br><span class="line">(计算的)</span><br><span class="line">min-height:400px</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure><p><font color="red">flex</font></p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">html{</span><br><span class="line">    &lt;div class=<span class="string">'container'</span>&gt;</span><br><span class="line">        &lt;div class=<span class="string">'center'</span>&gt;&lt;/div&gt;</span><br><span class="line">        &lt;div class=<span class="string">'left'</span>&gt;&lt;/div&gt;</span><br><span class="line">        &lt;div class=<span class="string">'right'</span>&gt;&lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">css</span><br><span class="line">.container{</span><br><span class="line">    display:flex</span><br><span class="line">    justify-content:space-between</span><br><span class="line">    height:100%</span><br><span class="line">}</span><br><span class="line">.left, .right{</span><br><span class="line">    flex:0 0 200px</span><br><span class="line">    height:200px</span><br><span class="line">}</span><br><span class="line">.center{</span><br><span class="line">    flex:1</span><br><span class="line">    min-height:400px</span><br><span class="line">}</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure><p><font color="red">定位实现</font></p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">定位实现</span><br><span class="line"> &lt;div class=<span class="string">'container'</span>&gt;</span><br><span class="line">        &lt;div class=<span class="string">'center'</span>&gt;&lt;/div&gt;</span><br><span class="line">        &lt;div class=<span class="string">'left'</span>&gt;&lt;/div&gt;</span><br><span class="line">        &lt;div class=<span class="string">'right'</span>&gt;&lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line"></span><br><span class="line">css</span><br><span class="line">.container{</span><br><span class="line">    height:100% </span><br><span class="line">}</span><br><span class="line">.left, .right{</span><br><span class="line">    posiotion:absolute;</span><br><span class="line">    top:0;</span><br><span class="line">    width:200px;</span><br><span class="line">    height:100px</span><br><span class="line">}</span><br><span class="line">.left{</span><br><span class="line">    left:0</span><br><span class="line">}</span><br><span class="line">.right{</span><br><span class="line">    right:0</span><br><span class="line">}</span><br><span class="line">.center{</span><br><span class="line">    margin:0 200px;</span><br><span class="line">    height:400px</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure><p>后续如还有将继续补充</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
@@ -141,16 +455,16 @@
     <published>2018-07-08T23:55:31.000Z</published>
     <updated>2020-07-08T15:30:48.746Z</updated>
     
-    <content type="html"><![CDATA[<p>一开始自己也是一点都没有思路呢！网上搜索一下如此简单！！！怪自己知道太少！！！见识有点少哈<br>先说一下基本语法结构：</p><p><a href=mailto:sample@163.com>send email</a></p><p>然后我们可以添加</p><p><a href="mailto:sample@163.com?subject=test&cc=sample@hotmail.com&body=use mailto sample">send mail</a><br>这样我们就可以基本使用邮箱的功能了。</p><p>然后我们可以通过js控制这些参数，可以让我们自由的发送邮件</p><table><thead><tr><th>属性</th><th>含有</th><th>参数</th></tr></thead><tbody><tr><td>to</td><td>收信人</td><td><a href="mailto:sample@163.com">sample@163.com</a></td></tr><tr><td>suject</td><td>主题</td><td>test</td></tr><tr><td>cc</td><td>抄送</td><td><a href="mailto:sample@hotmail.com">sample@hotmail.com</a></td></tr><tr><td>bcc</td><td>暗抄送</td><td></td></tr><tr><td>body</td><td>内容</td><td>use mailto sample</td></tr></tbody></table><p>代码：</p><pre><code class="bash">&lt;!DOCTYPE HTML PUBLIC <span class="string">"-//W3C//DTD HTML 4.0 Transitional//EN"</span>&gt;&lt;HTML&gt; &lt;HEAD&gt;  &lt;TITLE&gt; Send Email &lt;/TITLE&gt;  &lt;META NAME=<span class="string">"Generator"</span> CONTENT=<span class="string">"EditPlus"</span>&gt;  &lt;META NAME=<span class="string">"Author"</span> CONTENT=<span class="string">""</span>&gt;  &lt;META NAME=<span class="string">"Keywords"</span> CONTENT=<span class="string">""</span>&gt;  &lt;META NAME=<span class="string">"Description"</span> CONTENT=<span class="string">""</span>&gt; &lt;/HEAD&gt;&lt;script&gt;Date.prototype.toString=<span class="keyword">function</span>(){    var d = new Date();    var ret = d.getYear();    var m = d.getMonth()+1;    ret+=m.length&gt;1?m:<span class="string">'0'</span>+m;    var date= d.getDate();    ret+=date.length&gt;1?date:<span class="string">'0'</span>+date;    <span class="built_in">return</span> ret;    }var initSubject=<span class="string">'test'</span>+new Date().toString(),initTo=<span class="string">'sample@163.com'</span>,initCC=<span class="string">'sample@hotmail.com'</span>,initBody=<span class="string">'use mailto sample'</span>;<span class="keyword">function</span> submitHandler(){    var subject = subText.value;    var to = toText.value;    var cc = ccText.value;    var body = bodyText.value;    mailTo.href=<span class="string">"mailto:"</span>+to+<span class="string">"?cc="</span>+cc+<span class="string">"&amp;subject="</span>+subject+<span class="string">"&amp;body="</span>+body;    mailTo.click();}<span class="keyword">function</span> init(){    subText.value=initSubject;    toText.value=initTo;    ccText.value=initCC;    bodyText.value=initBody;}&lt;/script&gt;&lt;style&gt;.label{font-weight:bold;postion:absolute;width:80px;}.head{font-color:black;font-weight:bold;}.bd{<span class="built_in">float</span>:left;width:77px;font-weight:bold;}&lt;/style&gt; &lt;BODY οnlοad=<span class="string">"init()"</span>&gt; &lt;div class=<span class="string">"head"</span>&gt;Use mailto Send Email&lt;/div&gt; &lt;div&gt; &lt;span class=<span class="string">"label"</span>&gt;Subject:&lt;/span&gt;&lt;input id=<span class="string">"subText"</span> <span class="built_in">type</span>=<span class="string">"text"</span> size=50 value=<span class="string">"TM V14.2 Bug Fix Questions_20080221"</span>&gt; &lt;/div&gt; &lt;div&gt; &lt;span class=<span class="string">"label"</span>&gt;To:&lt;/span&gt;&lt;input id=<span class="string">"toText"</span> <span class="built_in">type</span>=<span class="string">"text"</span> size=50 value=<span class="string">""</span>&gt; &lt;/div&gt; &lt;div&gt; &lt;span class=<span class="string">"label"</span>&gt;CC:&lt;/span&gt;&lt;input id=<span class="string">"ccText"</span> <span class="built_in">type</span>=<span class="string">"text"</span> size=50 value=<span class="string">""</span>&gt; &lt;/div&gt; &lt;div&gt; &lt;span class=<span class="string">"bd"</span>&gt;Body:&lt;/span&gt;&lt;textarea id=<span class="string">"bodyText"</span> rows=20 cols=100&gt;&lt;/textarea&gt;  &lt;/div&gt; &lt;input name=<span class="string">"btSend"</span> <span class="built_in">type</span>=<span class="string">"button"</span> value=<span class="string">"send email"</span> οnclick=<span class="string">"submitHandler();"</span>&gt; &lt;a href=<span class="string">"mailto:"</span> id=<span class="string">"mailTo"</span>&gt;&lt;/a&gt; &lt;/BODY&gt;&lt;/HTML&gt;</code></pre>]]></content>
+    <content type="html"><![CDATA[<p>一开始自己也是一点都没有思路呢！网上搜索一下如此简单！！！怪自己知道太少！！！见识有点少哈<br>先说一下基本语法结构：</p><p><a href="mailto:sample@163.com">send email</a></p><p>然后我们可以添加</p><p><a href="mailto:sample@163.com?subject=test&amp;cc=sample@hotmail.com&amp;body=use mailto sample">send mail</a><br>这样我们就可以基本使用邮箱的功能了。</p><p>然后我们可以通过js控制这些参数，可以让我们自由的发送邮件</p><table><thead><tr><th>属性</th><th>含有</th><th>参数</th></tr></thead><tbody><tr><td>to</td><td>收信人</td><td><a href="mailto:sample@163.com">sample@163.com</a></td></tr><tr><td>suject</td><td>主题</td><td>test</td></tr><tr><td>cc</td><td>抄送</td><td><a href="mailto:sample@hotmail.com">sample@hotmail.com</a></td></tr><tr><td>bcc</td><td>暗抄送</td><td></td></tr><tr><td>body</td><td>内容</td><td>use mailto sample</td></tr></tbody></table><p>代码：</p><pre><code class="bash">&lt;!DOCTYPE HTML PUBLIC <span class="string">"-//W3C//DTD HTML 4.0 Transitional//EN"</span>&gt;&lt;HTML&gt; &lt;HEAD&gt;  &lt;TITLE&gt; Send Email &lt;/TITLE&gt;  &lt;META NAME=<span class="string">"Generator"</span> CONTENT=<span class="string">"EditPlus"</span>&gt;  &lt;META NAME=<span class="string">"Author"</span> CONTENT=<span class="string">""</span>&gt;  &lt;META NAME=<span class="string">"Keywords"</span> CONTENT=<span class="string">""</span>&gt;  &lt;META NAME=<span class="string">"Description"</span> CONTENT=<span class="string">""</span>&gt; &lt;/HEAD&gt;&lt;script&gt;Date.prototype.toString=<span class="keyword">function</span>(){    var d = new Date();    var ret = d.getYear();    var m = d.getMonth()+1;    ret+=m.length&gt;1?m:<span class="string">'0'</span>+m;    var date= d.getDate();    ret+=date.length&gt;1?date:<span class="string">'0'</span>+date;    <span class="built_in">return</span> ret;    }var initSubject=<span class="string">'test'</span>+new Date().toString(),initTo=<span class="string">'sample@163.com'</span>,initCC=<span class="string">'sample@hotmail.com'</span>,initBody=<span class="string">'use mailto sample'</span>;<span class="keyword">function</span> submitHandler(){    var subject = subText.value;    var to = toText.value;    var cc = ccText.value;    var body = bodyText.value;    mailTo.href=<span class="string">"mailto:"</span>+to+<span class="string">"?cc="</span>+cc+<span class="string">"&amp;subject="</span>+subject+<span class="string">"&amp;body="</span>+body;    mailTo.click();}<span class="keyword">function</span> init(){    subText.value=initSubject;    toText.value=initTo;    ccText.value=initCC;    bodyText.value=initBody;}&lt;/script&gt;&lt;style&gt;.label{font-weight:bold;postion:absolute;width:80px;}.head{font-color:black;font-weight:bold;}.bd{<span class="built_in">float</span>:left;width:77px;font-weight:bold;}&lt;/style&gt; &lt;BODY οnlοad=<span class="string">"init()"</span>&gt; &lt;div class=<span class="string">"head"</span>&gt;Use mailto Send Email&lt;/div&gt; &lt;div&gt; &lt;span class=<span class="string">"label"</span>&gt;Subject:&lt;/span&gt;&lt;input id=<span class="string">"subText"</span> <span class="built_in">type</span>=<span class="string">"text"</span> size=50 value=<span class="string">"TM V14.2 Bug Fix Questions_20080221"</span>&gt; &lt;/div&gt; &lt;div&gt; &lt;span class=<span class="string">"label"</span>&gt;To:&lt;/span&gt;&lt;input id=<span class="string">"toText"</span> <span class="built_in">type</span>=<span class="string">"text"</span> size=50 value=<span class="string">""</span>&gt; &lt;/div&gt; &lt;div&gt; &lt;span class=<span class="string">"label"</span>&gt;CC:&lt;/span&gt;&lt;input id=<span class="string">"ccText"</span> <span class="built_in">type</span>=<span class="string">"text"</span> size=50 value=<span class="string">""</span>&gt; &lt;/div&gt; &lt;div&gt; &lt;span class=<span class="string">"bd"</span>&gt;Body:&lt;/span&gt;&lt;textarea id=<span class="string">"bodyText"</span> rows=20 cols=100&gt;&lt;/textarea&gt;  &lt;/div&gt; &lt;input name=<span class="string">"btSend"</span> <span class="built_in">type</span>=<span class="string">"button"</span> value=<span class="string">"send email"</span> οnclick=<span class="string">"submitHandler();"</span>&gt; &lt;a href=<span class="string">"mailto:"</span> id=<span class="string">"mailTo"</span>&gt;&lt;/a&gt; &lt;/BODY&gt;&lt;/HTML&gt;</code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;一开始自己也是一点都没有思路呢！网上搜索一下如此简单！！！怪自己知道太少！！！见识有点少哈&lt;br&gt;先说一下基本语法结构：&lt;/p&gt;
-&lt;p&gt;&lt;a href=mailto:sample@163.com&gt;send email&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;mailto:sample@163.com&quot;&gt;send email&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;然后我们可以添加&lt;/p&gt;
-&lt;p&gt;&lt;
+&lt;p
       
     
     </summary>
@@ -170,13 +484,13 @@
     <published>2018-07-08T14:55:31.000Z</published>
     <updated>2020-07-08T03:36:13.792Z</updated>
     
-    <content type="html"><![CDATA[<h5 id="css实现三角形"><a href="#css实现三角形" class="headerlink" title="css实现三角形"></a>css实现三角形</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&lt;DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;head&gt;</span><br><span class="line">        &lt;meta charset=<span class="string">"utf-8"</span>/&gt;</span><br><span class="line">        &lt;title&gt;实现简单三角&lt;/title&gt;</span><br><span class="line">        &lt;style&gt;</span><br><span class="line">            /*实现上三角*/</span><br><span class="line">            *&#123;</span><br><span class="line">                margin:0;</span><br><span class="line">                padding 0;</span><br><span class="line">            &#125;</span><br><span class="line">            span&#123;</span><br><span class="line">                display: block;</span><br><span class="line">                width:0px;</span><br><span class="line">                height:0px;</span><br><span class="line">                border:10px solid;</span><br><span class="line">                /*</span><br><span class="line">                border-width:50px;</span><br><span class="line">                border-style: solid;</span><br><span class="line">                */</span><br><span class="line">                border-color:red transparent transparent  transparent;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">        &lt;/style&gt;</span><br><span class="line">    &lt;/head&gt;</span><br><span class="line">    &lt;body&gt;</span><br><span class="line">    &lt;span&gt;&lt;/span&gt;</span><br><span class="line">    &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure><p>利用更改border的边框，我们可以随意控制写出我们想要的三角形，通过控制边框的大小来实现三角形的大小，通过控制边框的位置来改变三角形的位置。</p><h3 id="带边框的三角形：通过绝对定位实现"><a href="#带边框的三角形：通过绝对定位实现" class="headerlink" title="带边框的三角形：通过绝对定位实现"></a>带边框的三角形：通过绝对定位实现</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&lt;DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;head&gt;</span><br><span class="line">        &lt;meta charset=<span class="string">"utf-8"</span>/&gt;</span><br><span class="line">        &lt;title&gt;带边框的三角形&lt;/title&gt;</span><br><span class="line">        &lt;style&gt;</span><br><span class="line">        *&#123;</span><br><span class="line">            margin:0;</span><br><span class="line">            padding 0;</span><br><span class="line">        &#125;</span><br><span class="line">        div&#123;</span><br><span class="line">            width:0px;</span><br><span class="line">            height:0px;</span><br><span class="line">            border:104px solid;</span><br><span class="line">            border-color:blue transparent transparent  transparent;</span><br><span class="line">            overflow:hidden;</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">        span&#123;</span><br><span class="line">            display: block;</span><br><span class="line">            width:0px;</span><br><span class="line">            height:0px;</span><br><span class="line">            border:100px solid;</span><br><span class="line">            border-color:red transparent transparent  transparent;</span><br><span class="line">                position: absolute;</span><br><span class="line">                top: 1px;</span><br><span class="line">                left: 4px;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        &lt;/style&gt;</span><br><span class="line">    &lt;/head&gt;</span><br><span class="line">    &lt;body&gt;</span><br><span class="line">        &lt;div&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">        &lt;span&gt;&lt;/span&gt;</span><br><span class="line">    &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h5 id="css实现三角形"><a href="#css实现三角形" class="headerlink" title="css实现三角形"></a>css实现三角形</h5><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&lt;DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;head&gt;</span><br><span class="line">        &lt;meta charset=<span class="string">"utf-8"</span>/&gt;</span><br><span class="line">        &lt;title&gt;实现简单三角&lt;/title&gt;</span><br><span class="line">        &lt;style&gt;</span><br><span class="line">            /*实现上三角*/</span><br><span class="line">            *{</span><br><span class="line">                margin:0;</span><br><span class="line">                padding 0;</span><br><span class="line">            }</span><br><span class="line">            span{</span><br><span class="line">                display: block;</span><br><span class="line">                width:0px;</span><br><span class="line">                height:0px;</span><br><span class="line">                border:10px solid;</span><br><span class="line">                /*</span><br><span class="line">                border-width:50px;</span><br><span class="line">                border-style: solid;</span><br><span class="line">                */</span><br><span class="line">                border-color:red transparent transparent  transparent;</span><br><span class="line">            }</span><br><span class="line"></span><br><span class="line">        &lt;/style&gt;</span><br><span class="line">    &lt;/head&gt;</span><br><span class="line">    &lt;body&gt;</span><br><span class="line">    &lt;span&gt;&lt;/span&gt;</span><br><span class="line">    &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></tbody></table></figure><p>利用更改border的边框，我们可以随意控制写出我们想要的三角形，通过控制边框的大小来实现三角形的大小，通过控制边框的位置来改变三角形的位置。</p><h3 id="带边框的三角形：通过绝对定位实现"><a href="#带边框的三角形：通过绝对定位实现" class="headerlink" title="带边框的三角形：通过绝对定位实现"></a>带边框的三角形：通过绝对定位实现</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&lt;DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;head&gt;</span><br><span class="line">        &lt;meta charset=<span class="string">"utf-8"</span>/&gt;</span><br><span class="line">        &lt;title&gt;带边框的三角形&lt;/title&gt;</span><br><span class="line">        &lt;style&gt;</span><br><span class="line">        *{</span><br><span class="line">            margin:0;</span><br><span class="line">            padding 0;</span><br><span class="line">        }</span><br><span class="line">        div{</span><br><span class="line">            width:0px;</span><br><span class="line">            height:0px;</span><br><span class="line">            border:104px solid;</span><br><span class="line">            border-color:blue transparent transparent  transparent;</span><br><span class="line">            overflow:hidden;</span><br><span class="line"></span><br><span class="line">        }</span><br><span class="line">        span{</span><br><span class="line">            display: block;</span><br><span class="line">            width:0px;</span><br><span class="line">            height:0px;</span><br><span class="line">            border:100px solid;</span><br><span class="line">            border-color:red transparent transparent  transparent;</span><br><span class="line">                position: absolute;</span><br><span class="line">                top: 1px;</span><br><span class="line">                left: 4px;</span><br><span class="line">        }</span><br><span class="line"></span><br><span class="line">        &lt;/style&gt;</span><br><span class="line">    &lt;/head&gt;</span><br><span class="line">    &lt;body&gt;</span><br><span class="line">        &lt;div&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">        &lt;span&gt;&lt;/span&gt;</span><br><span class="line">    &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></tbody></table></figure><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h5 id=&quot;css实现三角形&quot;&gt;&lt;a href=&quot;#css实现三角形&quot; class=&quot;headerlink&quot; title=&quot;css实现三角形&quot;&gt;&lt;/a&gt;css实现三角形&lt;/h5&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td cla
+        &lt;h5 id=&quot;css实现三角形&quot;&gt;&lt;a href=&quot;#css实现三角形&quot; class=&quot;headerlink&quot; title=&quot;css实现三角形&quot;&gt;&lt;/a&gt;css实现三角形&lt;/h5&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;
       
     
     </summary>
@@ -190,19 +504,19 @@
   </entry>
   
   <entry>
-    <title>css选择器</title>
-    <link href="http://yoursite.com/css/css%E9%80%89%E6%8B%A9%E5%99%A8/"/>
-    <id>http://yoursite.com/css/css%E9%80%89%E6%8B%A9%E5%99%A8/</id>
-    <published>2018-07-07T13:48:39.000Z</published>
-    <updated>2020-07-08T01:20:40.695Z</updated>
+    <title>盒子水平垂直居中的5大方案</title>
+    <link href="http://yoursite.com/css/%E7%9B%92%E5%AD%90%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD%E7%9A%845%E5%A4%A7%E6%96%B9%E6%A1%88/"/>
+    <id>http://yoursite.com/css/%E7%9B%92%E5%AD%90%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD%E7%9A%845%E5%A4%A7%E6%96%B9%E6%A1%88/</id>
+    <published>2018-07-07T16:47:26.000Z</published>
+    <updated>2020-07-10T03:06:06.175Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="css选择器-amp-css3选择器"><a href="#css选择器-amp-css3选择器" class="headerlink" title="css选择器&amp;css3选择器"></a>css选择器&amp;css3选择器</h1><p><code>CSS选择器</code></p><ul><li><p>元素选择器    元素名称{属性：属性值；}</p></li><li><p>id（#id）ID选择器                      </p></li><li><p>class(.class)  类选择器   </p></li><li><p>群组选择器（将具有相同性质的选择器写在一组）</p></li><li><p>伪选择器  </p></li><li><p>后代选择器： 选择符 选择符  父选择器 子选择器{属性：属性值；}</p></li><li><p>通配符选择器  *{属性：属性值}</p></li><li><p>伪元素选择器 ：：link{} ,:hover{}, :active{} ,:visited{}</p></li><li><p>子选择器： 父选择器&gt;子选择器{属性：属性值}</p></li></ul><p><code>CSS3选择器</code></p><p>一、属性选择器（通过元素有的属性名来判断）</p><p>二、伪类选择器</p><ol><li><p>动态伪类选择器</p></li><li><p>uI状态伪类</p></li><li><p>三、伪元素选择器</p></li><li><p>:after{}</p></li><li><p>：before{}</p></li><li><p>四、层级选择器</p></li></ol><p>$(‘#id’).siblings() 当前元素所有的兄弟节点</p><p>$(‘#id’).prev() 当前元素前一个兄弟节点</p><p>$(‘#id’).prevaAll() 当前元素之前所有的兄弟节点</p><p>$(‘#id’).next() 当前元素之后第一个兄弟节点</p><p>$(‘#id’).nextAll() 当前元素之后所有的兄弟节点</p><p>这三个方法都可以添加选择器，给出选择条件，就能找到你指定的兄弟节点了。</p><p><img src="/img/cssimg/CSS%E9%80%89%E6%8B%A9%E5%99%A8.jpg" alt="avatar"></p><p><code>选择器权重</code></p><p><img src="/img/cssimg/917css%E6%9D%83%E9%87%8D%E8%A1%A8%E7%A4%BA.png" alt="avatar"></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="定位3种（刚开始实现的时候：）"><a href="#定位3种（刚开始实现的时候：）" class="headerlink" title="定位3种（刚开始实现的时候：）"></a>定位3种（刚开始实现的时候：）</h1><pre><code class="bash">1、已知高度定位：相对于父级元素定位：父元素：relative元素：（1）{absolute;top:50%;left:50%;margin-top:-25px;margin-left:-50px}2、过渡方法{absolute;top:0;left:0;bottom:0;margin:auto}3、未知高度：css3中的：{position:absolute; top:50%;left:50%;transform:translate(-50%,-50%} (兼容性不好)</code></pre><h1 id="display-flex"><a href="#display-flex" class="headerlink" title="display:flex"></a>display:flex</h1><pre><code class="bash">display:父元素：{dispaly:flex;just-content:center;align-item:center}(兼容不好)</code></pre><h1 id="javaScript"><a href="#javaScript" class="headerlink" title="javaScript"></a>javaScript</h1><pre><code class="bash">js :父元素：relativejs计算距离=获取当前屏幕的宽高-当前元素的宽高（offsetWidth）当前元素：position:absolute左边距离=js计算距离/2+‘px’</code></pre><h1 id="dispaly-table-cell"><a href="#dispaly-table-cell" class="headerlink" title="dispaly:table-cell"></a>dispaly:table-cell</h1><pre><code class="bash">父元素：{display:table-cell;vertical-align:middletext-align:center宽度不能是百分比（控制文本的垂直居中）width:500pxheight:500px}(父级元素必须有固定宽高,项目中很少使用)当前元素：{dispaly:inline-block;}</code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;css选择器-amp-css3选择器&quot;&gt;&lt;a href=&quot;#css选择器-amp-css3选择器&quot; class=&quot;headerlink&quot; title=&quot;css选择器&amp;amp;css3选择器&quot;&gt;&lt;/a&gt;css选择器&amp;amp;css3选择器&lt;/h1&gt;&lt;p&gt;&lt;code&gt;
+        &lt;h1 id=&quot;定位3种（刚开始实现的时候：）&quot;&gt;&lt;a href=&quot;#定位3种（刚开始实现的时候：）&quot; class=&quot;headerlink&quot; title=&quot;定位3种（刚开始实现的时候：）&quot;&gt;&lt;/a&gt;定位3种（刚开始实现的时候：）&lt;/h1&gt;&lt;pre&gt;&lt;code class=&quot;bas
       
     
     </summary>
@@ -211,22 +525,7 @@
       <category term="css" scheme="http://yoursite.com/categories/css/"/>
     
     
-  </entry>
-  
-  <entry>
-    <title>js基础</title>
-    <link href="http://yoursite.com/js/js%E5%9F%BA%E7%A1%80/"/>
-    <id>http://yoursite.com/js/js%E5%9F%BA%E7%A1%80/</id>
-    <published>2018-07-07T13:48:39.000Z</published>
-    <updated>2020-07-08T01:20:49.552Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="js" scheme="http://yoursite.com/categories/js/"/>
-    
+      <category term="布局" scheme="http://yoursite.com/tags/%E5%B8%83%E5%B1%80/"/>
     
   </entry>
   
