@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/uncategorized/Portfolio/%E7%BA%A7%E8%81%94%E8%8F%9C%E5%8D%95/</loc>
+    <loc>http://yoursite.com/protfolio/Portfolio/%E7%B2%92%E5%AD%90%E6%8F%92%E4%BB%B6/</loc>
     
-    <lastmod>2020-07-10T03:20:08.902Z</lastmod>
+    <lastmod>2020-07-10T03:33:06.748Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2020-07-10T03:25:02.475Z</lastmod>
     
   </url>
   
@@ -19,13 +26,6 @@
     <loc>http://yoursite.com/protfolio/Portfolio/%E8%B7%AF%E7%94%B1%E8%B7%B3%E8%BD%AC%E4%B8%8D%E5%A5%BD%E4%BD%BF/</loc>
     
     <lastmod>2020-07-10T03:15:41.850Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/protfolio/Portfolio/%E7%B2%92%E5%AD%90%E6%8F%92%E4%BB%B6/</loc>
-    
-    <lastmod>2020-07-10T03:09:56.231Z</lastmod>
     
   </url>
   
@@ -152,20 +152,6 @@
     <loc>http://yoursite.com/css/%E5%B8%B8%E8%A7%81%E7%9A%84%E5%B8%83%E5%B1%80%E6%96%B9%E6%A1%88%E6%9C%89%E9%82%A3%E4%BA%9B%E5%91%A2%EF%BC%9F/</loc>
     
     <lastmod>2020-07-08T01:15:11.576Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/about/index.html</loc>
-    
-    <lastmod>2020-07-07T10:46:09.363Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/uncategorized/hello-world/</loc>
-    
-    <lastmod>2020-07-07T09:23:08.288Z</lastmod>
     
   </url>
   
